@@ -1,0 +1,16 @@
+@import "bourbon";
+@import "neat";
+
+@import "partials/variables";
+
+@import "partials/fonts";
+@import "partials/mixins";
+@import "partials/helpers";
+
+#graphic {
+
+  font-size: 16px;
+
+  @include outer-container(100%);
+
+}

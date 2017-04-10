@@ -1,0 +1,16 @@
+@import "partials/mixins";
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 620px;
+  background-color: white;
+  margin-top: 40px;
+  @include mobile {
+    width: 100%;
+    padding: 0;
+  }
+  @include tablet {
+    width: 100%;
+  }
+}

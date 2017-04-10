@@ -1,0 +1,22 @@
+// Helper styles
+
+.pp-desktop {
+  display: none;
+  @include desktop {
+    display: block;
+  }
+}
+
+.pp-mobile {
+  display: none;
+  @include mobile {
+    display: block;
+  }
+}
+
+.pp-tablet {
+  display: none;
+  @include tablet {
+    display: block;
+  }
+}

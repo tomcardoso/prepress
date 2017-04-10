@@ -1,0 +1,41 @@
+var p = require('../package.json');
+
+var src = './src',
+  srcScripts = src + '/scripts',
+  srcData = src + '/data',
+  srcImages = src + '/images',
+  srcStylesheets = src + '/style',
+  srcTemplates = src + '/templates',
+  browserSyncPort = 3030,
+  browserSyncUIPort = 3060,
+  buildFolder = 'dist',
+  buildPath = './' + buildFolder,
+  buildCssFilename = 'main.min.css',
+  slug = p.slug,
+  build = p.build,
+  dropboxPath = '/graphics',
+  archieData = srcData + '/archie.json',
+  googleDoc = p.googleDoc || '',
+  googleDocPath = 'https://docs.google.com/feeds/download/documents/export/Export?id=' + googleDoc + '&exportFormat=txt',
+  gfxRemotePath = 'https://path-to-hosted-graphics-server/';
+
+module.exports = {
+  src: src,
+  srcData: srcData,
+  srcImages: srcImages,
+  srcScripts: srcScripts,
+  srcStylesheets: srcStylesheets,
+  srcTemplates: srcTemplates,
+  slug: slug,
+  build: build,
+  googleDoc: googleDoc,
+  googleDocPath: googleDocPath,
+  dropboxPath: dropboxPath,
+  archieData: archieData,
+  graphicsRemotePath: gfxRemotePath,
+  browserSyncPort: browserSyncPort,
+  browserSyncUIPort: browserSyncUIPort,
+  buildFolder: buildFolder,
+  buildPath: buildPath,
+  buildCssFilename: buildCssFilename
+};

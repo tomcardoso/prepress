@@ -1,0 +1,28 @@
+$red: #CE2A23;
+$orange: #D9770B;
+$grey5: #222;
+$grey4: #555;
+$grey3: #999;
+$grey2: #ccc;
+$grey1: #EEE;
+$white: #fff;
+$black: #030303;
+
+$text: #111;
+$lightgray: #777;
+$verylightgray: #cacaca;
+$darker-red: darken($red, 5%);
+
+/* BOURBON & NEAT */
+$visual-grid: false;
+$visual-grid-color: red;
+$visual-grid-index: behind;
+$visual-grid-opacity: 0.5;
+$border-box-sizing: false !global;
+
+$mobile-width: 700px;
+$tablet-width: 701px;
+$desktop-width: 940px;
+
+$grid-columns: 12 !global;
+$max-width: em(940) !global;
