@@ -10,7 +10,6 @@
 #graphic {
 
   font-size: 16px;
-
-  @include outer-container(100%);
+  @include grid-container(100%);
 
 }

@@ -1,4 +1,4 @@
-import { message } from 'partials/init';
+import { message } from './partials/init';
 
 export default (function() {
 

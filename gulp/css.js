@@ -13,7 +13,7 @@ var sourceCss = gulpConfig.srcStylesheets + '/*.scss';
 var buildCss = gulpConfig.buildPath + '/style';
 
 var sassOptions = {
-  var: [
+  includePaths: [
     require('bourbon').includePaths,
     require('bourbon-neat').includePaths
   ],
